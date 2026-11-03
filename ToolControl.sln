@@ -1,0 +1,49 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToolControl.Core", "src\ToolControl.Core\ToolControl.Core.csproj", "{94E2DA61-EFA4-47FF-94C5-5BBB82EDE381}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToolControl.Contracts", "src\ToolControl.Contracts\ToolControl.Contracts.csproj", "{DF2AE0BD-AF7D-42EB-A6BC-8BA8258154C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToolControl.Service", "src\ToolControl.Service\ToolControl.Service.csproj", "{48BD324A-64E6-4F2B-853C-C45CE15472F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToolControl.ServiceHost", "src\ToolControl.ServiceHost\ToolControl.ServiceHost.csproj", "{135DF682-4B75-454F-9501-DFA54A9A896B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToolControl.OperatorConsole", "src\ToolControl.OperatorConsole\ToolControl.OperatorConsole.csproj", "{ABB1489A-7714-4FBA-B3F2-B6A51C83551C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToolControl.Core.Tests", "tests\ToolControl.Core.Tests\ToolControl.Core.Tests.csproj", "{526BA3D5-7D17-43AA-9A8E-DF67B386BD2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94E2DA61-EFA4-47FF-94C5-5BBB82EDE381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E2DA61-EFA4-47FF-94C5-5BBB82EDE381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E2DA61-EFA4-47FF-94C5-5BBB82EDE381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E2DA61-EFA4-47FF-94C5-5BBB82EDE381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF2AE0BD-AF7D-42EB-A6BC-8BA8258154C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF2AE0BD-AF7D-42EB-A6BC-8BA8258154C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF2AE0BD-AF7D-42EB-A6BC-8BA8258154C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF2AE0BD-AF7D-42EB-A6BC-8BA8258154C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48BD324A-64E6-4F2B-853C-C45CE15472F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48BD324A-64E6-4F2B-853C-C45CE15472F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48BD324A-64E6-4F2B-853C-C45CE15472F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48BD324A-64E6-4F2B-853C-C45CE15472F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135DF682-4B75-454F-9501-DFA54A9A896B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135DF682-4B75-454F-9501-DFA54A9A896B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135DF682-4B75-454F-9501-DFA54A9A896B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135DF682-4B75-454F-9501-DFA54A9A896B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB1489A-7714-4FBA-B3F2-B6A51C83551C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB1489A-7714-4FBA-B3F2-B6A51C83551C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB1489A-7714-4FBA-B3F2-B6A51C83551C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB1489A-7714-4FBA-B3F2-B6A51C83551C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526BA3D5-7D17-43AA-9A8E-DF67B386BD2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526BA3D5-7D17-43AA-9A8E-DF67B386BD2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526BA3D5-7D17-43AA-9A8E-DF67B386BD2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526BA3D5-7D17-43AA-9A8E-DF67B386BD2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
