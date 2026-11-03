@@ -24,5 +24,6 @@ jobs:
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: "8.0.x"
+      - run: dotnet restore ToolControl.sln
       - run: msbuild ToolControl.sln /p:Configuration=Release /m
       - run: dotnet test tests/ToolControl.Core.Tests/ToolControl.Core.Tests.csproj --no-build -c Release
