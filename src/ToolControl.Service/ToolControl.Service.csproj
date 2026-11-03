@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ToolControl.Core\ToolControl.Core.csproj" />
+    <ProjectReference Include="..\ToolControl.Contracts\ToolControl.Contracts.csproj" />
+    <Reference Include="System.ServiceModel" />
+  </ItemGroup>
+</Project>
